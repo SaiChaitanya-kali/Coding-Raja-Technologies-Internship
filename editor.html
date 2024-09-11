@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Editor</h1>
+        <a href="index.html">Back to Blog List</a>
+    </header>
+    <main>
+        <form id="blog-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" required>
+            <label for="content">Content:</label>
+            <textarea id="content" required></textarea>
+            <label for="image">Image URL:</label>
+            <input type="text" id="image">
+            <button type="submit">Save Blog</button>
+        </form>
+    </main>
+    <script src="editor.js"></script>
+</body>
+</html>
